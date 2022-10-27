@@ -1,0 +1,80 @@
+
+Object is the parent class of all classes
+Throwable is the parent class of Exception and Error
+
+Exception occurs because of developer's program
+Error occurs because of lack of system resources
+
+When we use try catch in a simple exception handling program compiling the program will not give any errors
+infact in the runtime period it will give you an error due to that compiler act as a checking machine which doesn't 
+gives the report to the user however runtime is the time where we get to know what's wrong with the program
+We can use multiple catch block in try block
+
+Checked Exception - A compiler who can check the class of Exception
+Unchecked Exception - A compiler who cannot check the class of Exception because its at runtime
+
+The Inside of Exception handling
+Whenever there is a exception in any method let's say main method it creates an object of Exception then that object will be passed
+to JVM so then there are two ways with which the exception gets handled
+1.Default Exception Handler
+2.Manually Handler so here we use try & catch keyword
+Try & Catch Example do read it
+So after getting the exception we have to give it to the runtime so there are three ways to do it
+1.PrintStackTrace
+It prints the exception name, descrption of exception and Stack trace(Location of Error)
+
+2.Sop(reference variable {of Exception} or SOP{reference variable}toString)
+It prints the exception name, descrption of exception but not the stack trace
+
+3.Sop(reference variable.getMessage())
+It only prints the exception name
+
+Finally block 
+It will get executed no matter the exception
+If the try block has no exception catch block will remain silent then the Finally block code will get executed
+If there's no catch block the Finally block will still get executed if the exception occurs
+
+The Use of Finally block is 
+To successfully closed the try block in case any exception occurs we can terminate it in Finally block
+
+There are 4 cases where Finally block can't get executed we will learn them in threading
+
+
+Difference between Final Finally and Finalize
+Given in the diagram
+
+Try catch tips 101
+While using Parent class of Exception we can't use child class of exception
+Example - 
+
+        public static void main (String args[])
+        {
+            try{
+
+            }
+            catch(ArithmeticException e){
+
+            }
+              catch(Exception e){
+
+            }
+           // Note this will give an error due to ArithmeticException is a child class
+        }
+
+
+*Throw*
+Throw keyword is used for custom Exception or user defined Exception
+In this types of Exception they come to Unchecked Exception (abhi soch kyu)
+
+The truth - Throw creates a object defined by the class which is created by user in this situation exception
+isn't handled yet but it's just given to JVM which is handled by Default Exception Handler also the program is 
+abnormally terminated so we need to use try catch block to avoid the abnormally termination
+(Catch block) - When creating the class of Exception you can use it on catch block to prevent the abnormally
+termination
+
+Difference between throw and throws keyword
+Throw                                         Throws
+Method ke andar                             Method ke bahar
+
+
+Remember this sentence Throw & Throws doesn't handle the exception they always show the exceptionf
