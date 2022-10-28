@@ -1,0 +1,44 @@
+Synchronization
+Synchronization in java is the capability to control the access of multiple threads to any shared 
+resource.
+Synchronization is better option where we want to allow only one thread to access the shared 
+resource.
+
+Synchronization is mainly used in 
+1. To prevent thread interference.
+2. To prevent consistency problem.
+
+
+There are three types to use Synchronization:
+1. Mutual Exclusive
+1. Synchronized method.
+2. Synchronized block.
+3. static synchronization.
+
+and also the other way
+2. Cooperation (Inter-thread communication in java
+
+
+Description(Desi bhassha me) - Jese ham do thread milakar ek kaam pehele karte the then dusra kaam karte the
+vese hi Synchronized keyword agar method me use kiya toh fir vo pehle ek object ke kaam ko pura kar dega then
+next wale object ko pura kardega 
+
+Synchronized block and method are the same bas likhne ka tareeka alag hai
+
+3. Static Synchronization
+If you make any static method as synchronized, the lock will be on the class not on object
+While using synchronized keyword syntax
+synchronization(reference object){
+    
+}
+Problem without static synchronization
+Suppose there are two objects of a shared class(e.g. Table) named object1 and object2.In case of 
+synchronized method and synchronized block there cannot be interference between t1 and t2 or t3 
+and t4 because t1 and t2 both refers to a common object that have a single lock.But there can be 
+interference between t1 and t3 or t2 and t4 because t1 acquires another lock and t3 acquires another 
+lock.I want no interference between t1 and t3 or t2 and t4.Static synchronization solves this 
+problem.
+
+
+
+

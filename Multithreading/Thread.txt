@@ -1,0 +1,51 @@
+To achieve Multiprocessing and Multithreading both are used to get Multitasking.
+Thread in a nut shell are:
+Threads are used to store a memory area
+Threads are faster in switching content
+A thread is a light-weight whereas processes are heavyweight.
+
+Flow of control in Java
+Without threading
+main -> Function 1 -> Function 2 -> End
+With Thread
+
+main 
+Function 1 => End
+Function 2
+
+Thread can be accessed by using this keyword
+1. Extends Thread Class
+2. Implements Runnable Interface
+
+
+Life cycle of a Thread (meaning: Thread States)
+1) New
+The thread is in new state if you create an instance of Thread class but before the invocation of 
+start() method.
+
+2) Runnable
+The thread is in runnable state after invocation of start() method, but the thread scheduler has not 
+selected it to be the running thread.
+
+3) Running
+The thread is in running state if the thread scheduler has selected it.
+
+4) Non-Runnable (Blocked)
+This is the state when the thread is still alive, but is currently not eligible to run.
+
+5) Terminated
+A thread is in terminated or dead state when its run() method exits
+
+
+
+
+
+
+
+
+
+
+
+
+
+
