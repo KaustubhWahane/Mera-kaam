@@ -1,0 +1,8 @@
+Javascript Console Object has many methods one  of the methods which Harry has shown are:
+console.assert() - Used to assert
+console.clear()  - clears the console
+console.log() - Outputs a message to the console
+console.table() - Displays a tabular data
+console.warm() - Used for warnings
+console.error() - Used for errors
+console.info() - Used for special information
