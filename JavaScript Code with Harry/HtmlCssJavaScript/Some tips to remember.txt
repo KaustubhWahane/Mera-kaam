@@ -1,0 +1,16 @@
+Javascript Console Object has many methods one  of the methods which Harry has shown are:
+console.assert() - Used to assert
+console.clear()  - clears the console
+console.log() - Outputs a message to the console
+console.table() - Displays a tabular data
+console.warm() - Used for warnings
+console.error() - Used for errors
+console.info() - Used for special information
+console.confirm() - Used to write a specific data in the console and a boolean value depending upon the User's  behaviour
+
+DOM (DOOOOM)
+Document Object Model it represents the page content as HTML
+document.body = Page body as a Object
+document.body.style.background  = "green" (Changes the page background color to the value you assign)
+
+BOM (BOOOMMBBB lagati hai menuuu)
