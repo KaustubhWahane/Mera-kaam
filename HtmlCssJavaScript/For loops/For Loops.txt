@@ -1,0 +1,13 @@
+For loops basically when we want to perform repeated actions 
+
+
+Types of loops in JavaScript
+For loop - Loop a block of code no.of times.
+For in loop - Loops through the key of an object.
+For of loop - Loops through the values of an object.
+While loop - Loops a block based on a specific condition.
+do-While loop - While loop variant which runs atleast once.
+
+
+
+

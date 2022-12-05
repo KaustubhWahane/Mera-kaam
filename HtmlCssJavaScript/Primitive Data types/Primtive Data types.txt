@@ -1,0 +1,9 @@
+NN BB SS U
+What the fuck is that letters so they stand for
+N - null
+N - number
+B - byte
+B - boolean
+S - String 
+S - Symbol
+U - Undefined

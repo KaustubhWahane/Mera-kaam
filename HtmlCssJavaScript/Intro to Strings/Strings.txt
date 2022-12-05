@@ -1,0 +1,11 @@
+let name = "Kaustubh"; (This creates a String)
+name.length  (This is a property of a String)
+Template Literals
+let name1 = "Sakshi"
+let sentence = (`Yokoso watashiwa soul $(name1) society`)
+This is called as String Interpolation
+
+Escape Sequence Characters
+let fruit = "Bana\"na";
+console.log(fruit)
+same for single quoted comma

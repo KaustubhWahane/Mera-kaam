@@ -1,0 +1,25 @@
+Dom tree refers to the HTML page where all the
+nodes are objects. These can be 3 main types of 
+nodes in the DOM tree :
+1. Text nodes
+2. Element nodes
+3. Comment nodes
+
+Children of an Element
+Direct as well as deeply nested elements of an element are called its Children
+Child nodes - Elements that are direct Children 
+For Eg- head and body tag are children of html tag
+Descendant nodes - All nested elements , children , their children and so on..
+
+FirstChild
+element.FirstChild = FirstChild element
+element.lastChild = LastChild element
+element.Childnodes = All Child nodes 
+
+Accessing Child from element
+Childnodes looks like an array .But its not actually an array it's a collection we can use Array from (Collection) to convert
+it into an array.(Array methods won't work)
+
+Siblings in DOM
+Consider the situation where body and head  tags after body tag comes head tag where body tag is represented by next or right
+sibling of head where head is said to be the previous or left sibling of body

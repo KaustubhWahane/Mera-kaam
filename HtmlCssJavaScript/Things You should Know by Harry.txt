@@ -1,0 +1,215 @@
+The first and the utmost reason Computers are dumb they don't know shit about anything 
+Programming is the act of constructing a program which is a set of precise instructions 
+telling a computer what to be done.
+
+Before Knowing about Javascript here's what you need to know about EcmaScript
+What is meant by ECMAScript?
+ECMAScript (/ˈɛkməskrɪpt/; ES) is a JavaScript standard 
+intended to ensure the interoperability of web pages across different browsers.
+
+
+Comment:-Now I really didn't knew about we can also use chrome or opera gx browser to use
+the console for coding (Dammn boi)
+
+How to exeecute javascript
+To execute JavaScript in a browser you have two options — either put it inside a script 
+element anywhere inside an HTML document,
+
+Variable
+A JavaScript variable is simply a name of storage location.There are two types of 
+variables in JavaScript : local variable and global variable.
+
+1.Var 
+Var was used in the history of JavaScript we use var to declare a variable in javascript
+Properties: Var can be updated & re-declared within its scope also on another note try to 
+not use this variable.
+
+2.Let
+This is the function which Harry says to use it as they say rule of thumb use this keyword
+more often to store any contents when using JavaScript
+Properties: Let can be updated but can't be re-declared 
+
+3.Const
+This is the function where it can't be updated nor re-declared
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

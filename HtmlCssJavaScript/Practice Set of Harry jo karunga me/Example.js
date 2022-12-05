@@ -1,0 +1,1 @@
+let age = 16; console.log(age < 10 || (age >=10 && age <=20)? "Your age lies between 10 and 20": "Hat lavde");

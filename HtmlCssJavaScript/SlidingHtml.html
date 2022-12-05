@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SlidingDecoration</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+</head>
+<body>
+    
+    <div id="liveAlertPlaceholder"></div>
+<button type="button" class="btn btn-primary" id="liveAlertBtn">Show live alert</button>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navabar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Paisa</a></li>
+                  <li><a class="dropdown-item" href="#">Paisa Dedo</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Allah ke naam pe dede</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+</div>
+      </nav>
+      
+      <!-- For SlidingImages -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="data:image/jpeg;base64,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" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://i0.wp.com/ramenswag.com/wp-content/uploads/2019/03/Sekiro-Shadows-Die-Twice-Wallpaper-4k-uhd.jpg?fit=1600%2C600&ssl=1" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://images.wallpapersden.com/image/download/sekiro-art_a2lnbGWUmZqaraWkpJRmbmdlrWZlbWU.jpg" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+   <script>
+    const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
+
+const alert = (message, type) => {
+  const wrapper = document.createElement('div')
+  wrapper.innerHTML = [
+    `<div class="alert alert-${type} alert-dismissible" role="alert">`,
+    `   <div>${message}</div>`,
+    '   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
+    '</div>'
+  ].join('')
+
+  alertPlaceholder.append(wrapper)
+}
+
+const alertTrigger = document.getElementById('liveAlertBtn')
+if (alertTrigger) {
+  alertTrigger.addEventListener('click', () => {
+    alert('Piche toh dekho piche', 'success')
+  })
+}
+   </script>
+</body>
+</html>

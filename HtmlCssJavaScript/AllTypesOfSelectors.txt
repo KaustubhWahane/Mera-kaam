@@ -1,0 +1,107 @@
+There are 5 types of Selectors
+1- Simple Selectors
+a) Element Selector
+Example - <h1> I love GOD OF WAR ZEUUS </h1>
+h1{
+    You can directly edit the element without using any symbol keyword
+}
+
+b) Id Selector
+Example - <div id = "Something"> I love GOD OF WAR ZEUUS </div>
+#h1{
+Here you have to use hash symbol 
+}
+
+c) Class Selector
+Example - <div class = "Something"> I love GOD OF WAR ZEUUS </div>
+.Something{
+Here you have to use dot symbol 
+}
+
+d) Universal Selector
+Example - Just use this * symbol it will automatically design each and every attribute 
+*{
+
+}
+
+e) Grouping Selector
+Example - h1, h2 , p Imagine i used this attributes and wrote something on it 
+h1,h2,p{
+Any changes made will be reflected on each of the elements
+}
+
+2- Combinator Selectors
+a) Descendant Selector and Child Selector
+Example - <div class = "box">
+<p>Box Paragraph One<p>
+<p>Box Paragraph Two<p>
+    <div class = "Underground-box">
+    <p>Underground Paragraph One<p>
+    <p>Underground Paragraph Two<p>
+    </div>
+</div>
+
+Now 
+Descendant Selector
+div.box p{
+    After putting the required attributes every attribute will get colored
+}
+
+Child Selector
+div.box > p{
+    After putting the required attributes every attribute will get colored
+}
+
+c)Adjacent Selector
+Example - <h1>Lorem Ipsum </h1>
+ <p>Lorem Ipsum </p>
+Now 
+h1 + p{
+    It will change the color of Paragraph p not the h1 header
+    Here you have to use + symbol 
+}
+
+d)General Sibling Selector
+Example - <h1>Lorem Ipsum </h1>
+ <p>Lorem Ipsum </p>
+ <p>Lorem Ipsum </p>
+ <p>Lorem Ipsum </p>
+Now 
+h1 ~ p{
+    It will change the color of Paragraph p not the h1 header
+    Here you have to use ~ symbol 
+    Using this symbol will change the attributes of all the Paragraph 
+}
+
+3) Attribute Selectors
+Example - <h1>Lorem Ipsum </h1>
+First name :  <input type="text"> <br>
+Last name : <input type="text"> <br>
+Email: <input type="email">
+Now
+If we used this 
+input{
+    all the attributes with input type will get changed
+}
+
+Additionally
+input[type = "text"]{
+    This will change only text attributes 
+}
+
+4) Pseudo-Class Selectors
+Example - <h1>Lorem Ipsum </h1>
+Now
+h1:hover{
+    color : red;
+    This will change the header tag to color red whenever the cursor is hovered to the text
+}
+
+5) Pseudo-Element Selectors
+Example - <p> Lorem Ipsum ahjdsflh </p>
+Now
+p::first-letter{
+    color : red;
+    This will change the first letter of the word to red
+}
+Similarly there are many functions associated with it like first-line
