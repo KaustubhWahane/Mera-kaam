@@ -1,0 +1,67 @@
+Junit 4 - They are used because of one of the reasons where we want a specific test to run multiple times or a class where it should be run first
+1)Before starting a test, there are certain activities to be performed on the 
+initiation of a class.
+2)Certain other activities to be performed before a testcase begins execution.
+3)Certain activities that need to be performed after execution of the test 
+4)Certain activities at the end of the execution of all the tests in a
+class.
+
+JUnit 4 Life Cycle (how does each annotations works)
+1. The method annotated with @BeforeClass is executed once at the start of the class.
+2. The method annotated with @Before executes before Testcase 1 begins.
+3. The method Testcase1 annotated with @Test is the testcase in the class.
+4. The method annotated with @After runs after Testcase 1 completes execution.
+5. The method annotated with @Before executes before Testcase 2 begins.
+6. The method Testcase2 annotated with @Test is the testcase in the class.
+7. The method annotated with @After runs after Testcase 2 completes execution.
+8. The method annotated with @AfterClass is executed once at the end of the class
+after both testcase 1 and 2 are executed.
+
+Note that the more the @Test cases more will be @Before and @After annotations will be used
+
+
+
+Junit 5 - Same reason but annotations are different
+
+Representation - @Before-(JUnit 4) /@BeforeEach-(JUnit 5):
+1) The annotated method executes before the execution of each test
+method in the test class.
+2) This annotation can be used when you wish to have the resources
+or test data set up just before the initiation of each test.
+3) For example, if there are 5 Testcases in a JUnit test class then
+the method annotated with @Before/@BeforeEach executes 5
+times prior to each of the test case’s execution.
+
+Representation - @After (JUnit 4) /@AfterEach (JUnit 5):
+4) The annotated method executes after each test method in the
+test class executes.
+5) This annotation can be used when you wish to have to release
+used resources or test data after each test case runs.
+6) For example, if there are 5 Testcases in a JUnit test class then
+the method annotated with @After/@AfterEach executes 5 times
+after the test cases’ execution.
+
+Representation - @BeforeClass (JUnit 4) /@BeforeAll (JUnit 5):
+7) The annotated method executes before all the test methods in a
+test class is executed.
+8) This annotation can be used when you wish to set up resources or
+test data at the class level.
+9) As this method is annotated with @BeforeClass/@BeforeAll is
+executed only once for a test class and the copy of the method
+gets shared across the class, and the method must be stated static.
+For example, if there are 5 Testcases in a JUnit test class then
+the method annotated with @BeforeClass/@BeforeAll executes
+once per test class before any testcase initiates.
+
+
+Representation - @AfterClass (JUnit 4) /@AfterAll (JUnit 5):
+10) The annotated method executes after all the test methods in a
+test class executes.
+11) This annotation can be used when you wish to release the used
+resources or test data at the class level.
+12) As this method is annotated with @AfterClass/@AfterAll is
+executed only once for a test class and the copy of the method
+gets shared across the class, the method must be stated static.
+For example, if there are 5 Testcases in a JUnit test class then
+the method annotated with @AfterClass/@AfterAll executes once
+per test class after all the test cases complete execution.
