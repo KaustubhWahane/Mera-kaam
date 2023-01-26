@@ -1,0 +1,9 @@
+Different Types of Data Types
+In R, there are 6 basic data types:
+
+logical
+numeric
+integer
+complex
+character
+raw
