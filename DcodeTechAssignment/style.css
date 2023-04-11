@@ -1,0 +1,62 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.content{
+    position: relative;
+}
+.content .text h1{
+    margin: 5px;
+    text-align: center;
+    font-size: 50;
+    font-style: oblique;
+}
+.content .text p.first{
+    color: rgb(15, 242, 242);
+    left: 10px;
+    position: absolute;
+    margin-top: 290px;  
+    font-size: 20px;
+    font-weight: bolder;
+}
+.content .text p.second{
+    color: rgb(15, 242, 242);
+    left: 30.2em;
+    position: absolute;
+    margin-top: 290px;  
+    font-size: 20px;
+    font-weight: bolder;
+}
+.content .text p.third{
+    color: rgb(242, 34, 15);
+    left: 50px;
+    bottom: 3em;
+    position: absolute;
+    margin-top: 290px;  
+    font-size: 20px;
+    font-weight: bolder;
+}
+.content .text p.fourth{
+    color: rgb(15, 242, 242);
+    left: 61em;
+    position: absolute;
+    margin-top: 290px;  
+    font-size: 20px;
+    font-weight: bolder;
+}
+.content .text p.fifth{
+    color: rgb(242, 34, 15);
+    left: 48em;
+    bottom: 3em;
+    position: absolute;
+    margin-top: 290px;  
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+@media (min-width: 1800px) {
+    .content {
+        width: 1800px;
+    }
+}
+
