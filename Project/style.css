@@ -1,0 +1,124 @@
+.dabba{
+    background-color: black;
+    height: 50px;
+    width: 100%;
+}
+.headertext{
+    padding-left: 350px;
+    color: #fff;
+    padding-top: 10px;
+}
+.info{
+    padding-left: 1200px;
+    color: #fff;
+    margin-top: -40px;
+}
+.number{
+    padding-left: 95em;
+    color: #fff;
+    margin-top: -40px;
+}
+header .logoimage {
+    margin-left: 20em;
+}
+.navbar{
+    width: 85%;
+    padding-left: 900px ;
+    margin-top: -70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a{
+     color: red;
+     text-decoration: none;
+     color: black;
+     text-transform: uppercase;
+}
+.navbar ul li ::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: linear-gradient(90deg, green , black);
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li :hover::after{
+    width: 100%;
+}
+.quick{
+    text-align: center;
+    padding-right: 400px;
+    font-size: 35px;
+}
+.contact{
+    text-align: center;
+    padding-left: 400px;
+    margin-top: -50px;
+    font-size: 35px;
+}
+.logoimage2 {
+    margin-left: 18em;
+}
+#box1{
+    border: 5px solid;
+    width: 80px;
+    height: 50px;
+    padding-left: 45em;
+}
+.navbar2 li{
+    list-style: none;
+    margin-left: 41em;
+}
+.navbar2 li::before{
+  content: "";
+  border-color: transparent #0b90ef;
+  border-style: solid;
+  border-width: 0.5em 0 0.5em 0.5em;
+  position: relative;
+  display: block;
+  left: -1em;
+  top: 1.25em;
+  
+}
+.corp{
+    font-weight: bold;
+    margin-left: 1150px;
+    margin-top: -360px;
+}
+.number2{
+   color: black;
+   font-weight: bold;
+   margin-left: 71.5em;
+   margin-top: 70px;
+}
+.email{
+   color: black;
+   font-weight: bold;
+   margin-left: 85em;
+   margin-top: -40px;
+}
+.nichewaladabba{
+    background-color: rgb(83, 79, 79);
+    height: 50px;
+    width: 100%;
+    margin-top: 290px;
+}
+.lasttag {
+    color: white;
+    padding-left: 85em;
+    margin-top: -40px;
+}
+.lasttag:hover{
+    color: black;
+}
