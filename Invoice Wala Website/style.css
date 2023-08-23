@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&family=Roboto:wght@500&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+#sidebar{
+    position: fixed;
+    width: 18%;
+    height: 100%;
+    left: -18%;
+    background-color: rgb(46, 39, 39);
+}
+#sidebar li{
+    color: white;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+}
+#sidebar.active{
+    left: 0;
+}
+.togglewalabtn{
+    position: absolute;
+    left: 105%;
+    top: 15px
+}
+.togglewalabtn span{
+    display: block;
+    background-color: grey;
+    width: 21px;
+    height: 5px;
+    margin: 3px;
+}
+#billing{
+    position: absolute;
+    margin-top: -1.5em;
+    margin-left: 3.5em;
+}
+.billing{
+    margin-top: 1em;
+    margin-left: 3.5em;
+    color: grey;
+}
+#Finance{
+    margin-top: 1.2em;
+    margin-left: 3.5em;
+}
+.Finance{
+    margin-top:  1em;
+    margin-left: 3.5em;
+    color: grey;
+}
+#Inventory{
+    margin-top: 2.2em;
+    margin-left: 3.5em;
+}
+.Inventory{
+    margin-top:  1em;
+    margin-left: 3.5em;
+    color: grey;
+}
+#Expense{
+    margin-top: 3.2em;
+    margin-left: 3.5em;
+}
+.Expense{
+    margin-top:  1em;
+    margin-left: 3.5em;
+    color: grey;
+}
+/* Social link */
+li a{
+	color: #ffffff;
+	font-weight: 300;
+	color: #bbbbbb;
+	transition: all 0.3s ease;
+}
+ ul li a:hover{
+	color: #ffffff;
+    position: relative;
+	margin-left: 50px;
+}
+ .social-links a{
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	background-color: rgba(220, 204, 204, 0.798);
+    margin-top: 1em;
+    margin-left: 3.5em;
+    text-align: center;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.social-links a:hover{
+	color: #24262b;
+	background-color: #08475c;
+}
+.col1{
+    margin-top: 2em;
+    margin-left: 23em;
+    width: 55em;
+    height: 50em;
+    border: 2px solid blue;
+}
+input[type="file"]{
+    display: none;
+}
+.upload{
+    margin: 2em;
+    width: 150px;
+    height: 150px;
+}
+label{
+    width: 150px;
+    height: 100px;
+    border-radius: 6px;
+    border: 1px dashed lightblue;
+}
+label:hover{
+    color: lightblue;
+    border: 1px dashed #def;
+}
+.Upload{
+    width: 100px;
+    margin: -70px 9em;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+.pixels{
+    width: 233px;
+    margin: 70px 9em;
+    padding: 1em 1.5em;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+.taxinvoice{
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;  
+    margin-left: 10em;
+    margin-top: -3.6em;
+}
+input[type="tel"]::placeholder{
+    color: black;
+    font-size: 25px;
+}
+input[type="tel"]{
+    margin-left: -5em;
+    padding: 43px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: bisque;
+    font-weight: 400;
+}
+input[type="tel"]:hover{
+    border-color: lightskyblue;
+}
+input[type="text"]{
+    display: block;
+    margin: 2em 1em -1.4em ;
+    padding: 3px;
+}
+input[type="text"]:hover{
+    border-color: lightskyblue;
+}
+#state{
+    display: block;
+    margin: 2em 1em 1em ;
+    padding: 3px;
+}
+#country{
+    display: block;
+    margin: 2em 1em 1em ;
+    padding: 3px;
+}
+.col2{
+    margin: 1em;
+    margin-top: 3em;
+    width: 21em;
+    height: 15em;
+    border:1px solid blue;
+}
+.col3{
+    margin-top: -16em;
+    margin-left: 30em;
+    width: 21em;
+    height: 12em;
+    border:1px solid blue;
+}
